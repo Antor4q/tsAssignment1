@@ -7,18 +7,22 @@
 <p>In TypeScript, the term "types" refers to the different ways data structures are defined for variables, including both built-in types like number, string, and boolean, as well as custom types such as type aliases. Union types and tuples, for instance, are defined using the type keyword, providing flexibility in how data structures are handled.</p>
 
 1. Primitive Type Aliases
+
    type Name = string;
 
 2. Object Type
+
    type Book = {
     title: string, price:100
    }
 
 3. Union and Intersection Types
+
    type Mobile = "samsung" | "oppo"
    type Int = "samsung" & "Oppo"
 
 4. function type
+
    type greet = (name: string)=>string
 
 
