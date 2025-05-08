@@ -74,9 +74,9 @@ Example:
          let day: Day = Day.Monday
          console.log(day)
 
-      <p>Automatically assign numeric values(like: Monday = 0,Tuesday=1)</p>
+      Automatically assign numeric values(like: Monday = 0,Tuesday=1)
 
-      <h5>Also you can add manually numeric values:</h5>
+      Also you can add manually numeric values
 
        enum Day {
                   Monday = 1,
@@ -88,9 +88,11 @@ Example:
 <p>By using String enum, it's allow you to assign string values. Making the code more readable and ideal.</p>
 
 Example: 
+
          enum Mobiles{
             Samsung = "Samsung",
             Apple = "Apple",
          }
+         
 
 <p>Enums in TypeScript give your code structure, clarity, and safety when dealing with fixed sets of values. Use numeric enums for performance-sensitive logic and string enums for clearer, more descriptive output.</p>
