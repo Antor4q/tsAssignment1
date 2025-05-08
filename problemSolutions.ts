@@ -20,7 +20,6 @@ function filterByRating(mobiles : {title: string;rating: number}[]): {title: str
 }
 
 
-// problem 3
 function concatenateArrays<T>(...arrays: T[][]): T[]{
     return ([] as T[]).concat(...arrays)
 }

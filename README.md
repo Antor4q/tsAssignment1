@@ -46,3 +46,51 @@ interface Book {
 
 3. <p>interface: Primarily used for defining the shape of objects and classes.</p>
    <p>type: More flexible, used for unions, intersections, tuples, and primitive types.</p>
+
+------------------------------------------------------------------
+
+<h2>The use of enums in TypeScript</h2>
+
+
+<h3>What is an enum?</h3>
+
+<p>An enum in TypeScript is a feature that lets you define a set of named constants, making your code more readable and organized. It groups related values under meaningful names, which improves clarity and maintainability. Enums can use both numbers and strings based on what suits your code best.</p>
+
+<h3>Numeric enum</h3>
+
+<p>In numeric enum, automatically assigns incremental numeric values starting from 0, useful for performance or compact data, Also manually you can assign specific numbers if needed.</p>
+
+Example: 
+
+        enum Day {
+                  Monday,
+                  Tuesday,
+                  Wednesday,
+                  Thursday,
+                  Friday,
+                  Saturday,
+                  Sunday
+                  }
+         let day: Day = Day.Monday
+         console.log(day)
+
+      <p>Automatically assign numeric values(like: Monday = 0,Tuesday=1)</p>
+
+      <h5>Also you can add manually numeric values:</h5>
+
+       enum Day {
+                  Monday = 1,
+                  Tuesday = 3,
+                  }
+
+<h3>String enum</h3>
+
+<p>By using String enum, it's allow you to assign string values. Making the code more readable and ideal.</p>
+
+Example: 
+         enum Mobiles{
+            Samsung = "Samsung",
+            Apple = "Apple",
+         }
+
+<p>Enums in TypeScript give your code structure, clarity, and safety when dealing with fixed sets of values. Use numeric enums for performance-sensitive logic and string enums for clearer, more descriptive output.</p>
