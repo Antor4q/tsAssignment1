@@ -4,7 +4,7 @@
 
 <h3>type in TypeScript</h3>
 
-<p>In TypeScript, the term "types" refers to the different ways data structures are defined for variables, including both built-in types like number, string, and boolean, as well as custom types such as type aliases. Union types and tuples, for instance, are defined using the type keyword, providing flexibility in how data structures are handled.</p>
+<p>In TypeScript, the  "types" refers to the different ways data structures are defined for variables, including both built-in types like number, string, and boolean, as well as custom types such as type aliases. Union types and tuples, for instance, are defined using the type keyword, providing flexibility in how data structures are handled.</p>
 
 1. Primitive Type Aliases
 
@@ -28,7 +28,7 @@
 
 <h3>interface in TypeScript</h3>
 
-<p>An interface defines a contract that specifies the structure an entity must follow, including properties, methods, and events without implementation. It ensures that implementing classes adhere to this required structure. When deciding between types and interfaces, factors like readability, context, personal preference, and performance should be considered.</p>
+<p>An interface is a rule that says what properties and methods an object should have, but it doesn't include how they work. It helps make sure that any class using it follows the same shape. </p>
 
 interface Book {
    name: string;
@@ -93,6 +93,6 @@ Example:
             Samsung = "Samsung",
             Apple = "Apple",
          }
-         
+
 
 <p>Enums in TypeScript give your code structure, clarity, and safety when dealing with fixed sets of values. Use numeric enums for performance-sensitive logic and string enums for clearer, more descriptive output.</p>
